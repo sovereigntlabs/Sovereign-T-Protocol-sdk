@@ -1,6 +1,4 @@
-go 1.21
-
-toolchain go1.21.0
+go 1.22
 
 module github.com/cosmos/cosmos-sdk
 
@@ -63,8 +61,10 @@ require (
 	google.golang.org/protobuf v1.31.0
 	gotest.tools/v3 v3.5.1
 	pgregory.net/rapid v1.1.0
-	sigs.k8s.io/yaml v1.3.0
+	sigs.k8s.io/yaml v1.6.0
 )
+
+require go.yaml.in/yaml/v2 v2.4.2 // indirect
 
 require (
 	filippo.io/edwards25519 v1.0.0 // indirect
